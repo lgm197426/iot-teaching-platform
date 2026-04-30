@@ -137,7 +137,7 @@ export default function SensorSimulator() {
                 <label className="text-sm text-gray-600 mb-1 block">采样间隔（秒）</label>
                 <select 
                   value={interval} 
-                  onChange={(e) => setInterval(Number(e.target.value))}
+                  onChange={(e) => setIntervalTime(Number(e.target.value))}
                   className="select-field text-sm"
                 >
                   <option value={1}>1秒</option>
