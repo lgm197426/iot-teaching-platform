@@ -41,7 +41,7 @@ export default function RFIDSimulator() {
         timestamp: new Date(),
         tagId: tag.id,
         tagName: tag.name,
-        action: granted ? 'granted' : 'denied'
+        action: granted ? ('granted' as const) : ('denied' as const)
       }, ...prev].slice(0, 20))
       
       if (granted) {
