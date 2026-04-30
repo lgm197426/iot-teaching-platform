@@ -1,0 +1,9 @@
+{
+  "/teacher/page": "app/teacher/page.js",
+  "/simulator/page": "app/simulator/page.js",
+  "/page": "app/page.js",
+  "/quiz/page": "app/quiz/page.js",
+  "/simulator/[simulatorId]/page": "app/simulator/[simulatorId]/page.js",
+  "/teaching/page": "app/teaching/page.js",
+  "/course/page": "app/course/page.js"
+}
