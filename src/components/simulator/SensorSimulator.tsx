@@ -16,7 +16,7 @@ export default function SensorSimulator() {
   const [light, setLight] = useState(500)
   const [dataHistory, setDataHistory] = useState<SensorData[]>([])
   const [tempThreshold, setTempThreshold] = useState(30)
-  const [interval, setInterval] = useState(1)
+  const [interval, setIntervalTime] = useState(1)
   
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
